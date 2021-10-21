@@ -12,7 +12,7 @@ class SubjectComponent extends Component {
     }   
 
     componentDidMount(){
-        SubjectListService.getSubjects.then((res => {
+        SubjectListService.getSubjects().then((res => {
             
             console.log(res.data)
         
